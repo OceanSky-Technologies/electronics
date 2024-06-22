@@ -2,20 +2,20 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "RFD868x-EU_868Mhz_Long_Range"
+	(symbol "Walksnail_Avatar_HD_Pro_Kit"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 3.556 -0.762 0)
+			(at -0.508 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RFD868x"
-			(at 7.112 -2.54 0)
+		(property "Value" "Walksnail Avatar HD Pro Kit"
+			(at 12.446 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,178 +49,13 @@
 				(hide yes)
 			)
 		)
-		(symbol "RFD868x-EU_868Mhz_Long_Range_0_1"
-			(rectangle
-				(start -2.54 0)
-				(end 2.54 -6.35)
+		(symbol "Walksnail_Avatar_HD_Pro_Kit_0_1"
+			(arc
+				(start -11.43 -7.62)
+				(mid -11.9561 -8.89)
+				(end -11.43 -10.16)
 				(stroke
 					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 6.35) (xy 0 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 6.35) (xy 0 1.27) (xy -1.27 6.35)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "RFD868x-EU_868Mhz_Long_Range_1_1"
-			(pin bidirectional line
-				(at 0 -8.89 90)
-				(length 2.54)
-				(name "CONN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "Radiomaster_Bandit_BR3_ELRS"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 13.716 16.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Radiomaster Bandit BR3 ELRS"
-			(at 27.686 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Radiomaster_Bandit_BR3_ELRS_0_1"
-			(polyline
-				(pts
-					(xy -2.54 6.35) (xy 7.62 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 12.7) (xy -2.54 6.35)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 8.89) (xy 7.62 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 15.24) (xy 2.54 8.89)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 12.7) (xy -2.54 7.62) (xy -3.81 12.7)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 15.24) (xy 2.54 10.16) (xy 1.27 15.24)
-				)
-				(stroke
-					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -228,8 +63,8 @@
 				)
 			)
 			(rectangle
-				(start 7.62 12.7)
-				(end 17.78 2.54)
+				(start -11.43 -7.62)
+				(end -8.89 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -238,28 +73,105 @@
 					(type none)
 				)
 			)
-		)
-		(symbol "Radiomaster_Bandit_BR3_ELRS_1_1"
-			(pin power_in line
-				(at 11.43 15.24 270)
-				(length 2.54)
-				(name "5V"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(rectangle
+				(start -5.08 -1.27)
+				(end 10.16 -15.24)
+				(stroke
+					(width 0)
+					(type default)
 				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(fill
+					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy -8.89 -8.89) (xy -5.08 -8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 19.05 -7.62) (xy 10.16 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 19.05 -1.27) (xy 19.05 -7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 24.13 -10.16) (xy 10.16 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 24.13 -3.81) (xy 24.13 -10.16)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.32 -1.27) (xy 19.05 -6.35) (xy 17.78 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25.4 -3.81) (xy 24.13 -8.89) (xy 22.86 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Walksnail_Avatar_HD_Pro_Kit_1_1"
 			(pin passive line
-				(at 11.43 0 90)
+				(at -2.54 -17.78 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -277,9 +189,9 @@
 				)
 			)
 			(pin input line
-				(at 20.32 6.35 180)
+				(at 6.35 -17.78 90)
 				(length 2.54)
-				(name "RX"
+				(name "UART_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -295,9 +207,45 @@
 				)
 			)
 			(pin output line
-				(at 20.32 8.89 180)
+				(at 8.89 -17.78 90)
 				(length 2.54)
-				(name "TX"
+				(name "UART_TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 2.54 -17.78 90)
+				(length 2.54)
+				(name "USB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 1.27 270)
+				(length 2.54)
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)

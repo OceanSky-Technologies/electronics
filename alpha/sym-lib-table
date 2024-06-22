@@ -6,4 +6,8 @@
   (lib (name "ESCs")(type "KiCad")(uri "${KIPRJMOD}/../lib/ESCs.kicad_sym")(options "")(descr ""))
   (lib (name "Misc")(type "KiCad")(uri "${KIPRJMOD}/../lib/Misc.kicad_sym")(options "")(descr ""))
   (lib (name "RF_Modules")(type "KiCad")(uri "${KIPRJMOD}/../lib/RF_Modules.kicad_sym")(options "")(descr ""))
+  (lib (name "GPS_Modules")(type "KiCad")(uri "${KIPRJMOD}/../lib/GPS_Modules.kicad_sym")(options "")(descr ""))
+  (lib (name "Camera_VTX")(type "KiCad")(uri "${KIPRJMOD}/../lib/Camera_VTX.kicad_sym")(options "")(descr ""))
+  (lib (name "DC_DC_Converters")(type "KiCad")(uri "${KIPRJMOD}/../lib/DC_DC_Converters.kicad_sym")(options "")(descr ""))
+  (lib (name "Sensors")(type "KiCad")(uri "${KIPRJMOD}/../lib/Sensors.kicad_sym")(options "")(descr ""))
 )
