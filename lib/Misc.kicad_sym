@@ -178,7 +178,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -0.762 3.302 0)
+			(at 0.508 3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186,7 +186,7 @@
 			)
 		)
 		(property "Value" "iFlight Anti Spark Filter"
-			(at 0.254 1.27 0)
+			(at 1.524 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -222,8 +222,8 @@
 		)
 		(symbol "iFlight_Anti_Spark_Filter_0_1"
 			(rectangle
-				(start -3.81 -6.35)
-				(end 5.08 0)
+				(start -5.08 0)
+				(end 6.35 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -235,9 +235,27 @@
 		)
 		(symbol "iFlight_Anti_Spark_Filter_1_1"
 			(pin power_in line
-				(at -6.35 -5.08 0)
+				(at -7.62 -1.27 0)
 				(length 2.54)
-				(name "IN"
+				(name "IN+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -3.81 0)
+				(length 2.54)
+				(name "IN-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -253,9 +271,9 @@
 				)
 			)
 			(pin power_out line
-				(at 7.62 -5.08 180)
+				(at 8.89 -1.27 180)
 				(length 2.54)
-				(name "OUT"
+				(name "OUT+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -270,10 +288,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -6.35 -1.27 0)
+			(pin power_out line
+				(at 8.89 -3.81 180)
 				(length 2.54)
-				(name "V+"
+				(name "OUT-"
 					(effects
 						(font
 							(size 1.27 1.27)
