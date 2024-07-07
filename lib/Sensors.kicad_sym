@@ -51,8 +51,8 @@
 		)
 		(symbol "Crazyflie_Flow_v2_0_1"
 			(rectangle
-				(start 6.35 -10.16)
-				(end -7.62 6.35)
+				(start -8.89 6.35)
+				(end 6.35 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -82,7 +82,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -12.7 90)
+				(at -7.62 -12.7 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -193,6 +193,24 @@
 				(at -5.08 8.89 270)
 				(length 2.54)
 				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 8.89 270)
+				(length 2.54)
+				(name "VCOM"
 					(effects
 						(font
 							(size 1.27 1.27)

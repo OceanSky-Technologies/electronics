@@ -312,6 +312,231 @@
 				)
 			)
 		)
+		(symbol "Crazyflie_Flow_v2_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.048 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crazyflie Flow v2"
+				(at 4.572 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 25.4 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 25.4 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 25.4 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crazyflie_Flow_v2_1_0_1"
+				(rectangle
+					(start -8.89 6.35)
+					(end 6.35 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crazyflie_Flow_v2_1_1_1"
+				(pin bidirectional line
+					(at 8.89 -6.35 180)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -8.89 180)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 5.08 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 8.89 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 8.89 270)
+					(length 2.54)
+					(name "VCOM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "DC_DC_Converters:DC/DC_Converter"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2898,213 +3123,6 @@
 				)
 			)
 		)
-		(symbol "Sensors:Crazyflie_Flow_v2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.048 9.652 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crazyflie Flow v2"
-				(at 4.572 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 25.4 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 25.4 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 25.4 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crazyflie_Flow_v2_0_1"
-				(rectangle
-					(start 6.35 -10.16)
-					(end -7.62 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crazyflie_Flow_v2_1_1"
-				(pin bidirectional line
-					(at 8.89 -6.35 180)
-					(length 2.54)
-					(name "CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 -1.27 180)
-					(length 2.54)
-					(name "MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 -3.81 180)
-					(length 2.54)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 2.54 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 -8.89 180)
-					(length 2.54)
-					(name "SCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 5.08 180)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 8.89 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Sensors:Holybro_Digital_Air_Speed_Sensor"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3674,6 +3692,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "138862be-d33e-4377-89da-a4d8fdfe3e06")
+	)
+	(junction
+		(at 40.64 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d8e260b-b24d-4c95-b103-ce919c89ccb0")
 	)
 	(junction
 		(at 214.63 20.32)
@@ -4452,6 +4476,16 @@
 			(type default)
 		)
 		(uuid "98cc18e6-6778-4d6e-bb67-922efb174b8c")
+	)
+	(wire
+		(pts
+			(xy 38.1 166.37) (xy 40.64 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d359c0c-02bc-4c06-939f-50d97623d897")
 	)
 	(wire
 		(pts
@@ -5811,7 +5845,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 187.96 0)
+		(at 38.1 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5820,7 +5854,7 @@
 		(fields_autoplaced yes)
 		(uuid "174e4fdb-1012-4f27-84e7-c2f5f3cbcd75")
 		(property "Reference" "#PWR015"
-			(at 40.64 194.31 0)
+			(at 38.1 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,7 +5863,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 193.04 0)
+			(at 38.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5837,7 +5871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 187.96 0)
+			(at 38.1 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5846,7 +5880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 187.96 0)
+			(at 38.1 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5855,7 +5889,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 187.96 0)
+			(at 38.1 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6766,6 +6800,97 @@
 		)
 	)
 	(symbol
+		(lib_name "Crazyflie_Flow_v2_1")
+		(lib_id "Sensors:Crazyflie_Flow_v2")
+		(at 45.72 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54ea4f73-0fd5-4b6b-98ad-8963eea2c109")
+		(property "Reference" "U15"
+			(at 46.228 165.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Crazyflie Flow v2"
+			(at 58.928 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "877ba7f4-2db0-443d-9637-ba5f2298040b")
+		)
+		(pin ""
+			(uuid "fa6e1fc1-b22c-4868-9ea3-a787ab6d7118")
+		)
+		(pin ""
+			(uuid "b2b9a27b-c379-4b22-8427-42053aa7ed9e")
+		)
+		(pin ""
+			(uuid "5503055b-fef5-411a-901d-83f48742315b")
+		)
+		(pin ""
+			(uuid "265a1edd-55a3-40b8-aab5-38db23b0e348")
+		)
+		(pin ""
+			(uuid "312cb31d-8e69-447d-bacc-4bc727e62625")
+		)
+		(pin ""
+			(uuid "790386d3-ff49-420d-aed2-cc35862cf956")
+		)
+		(pin ""
+			(uuid "7c5ffb4f-30b6-4bb0-befe-665f3330af35")
+		)
+		(pin ""
+			(uuid "0c79c93d-8319-48a5-bd0e-5c623c8b31c0")
+		)
+		(instances
+			(project ""
+				(path "/e82fdf23-e984-4547-bc35-f76b36d3e186"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 121.92 35.56 0)
 		(unit 1)
@@ -6957,94 +7082,6 @@
 			(project "alpha"
 				(path "/e82fdf23-e984-4547-bc35-f76b36d3e186"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensors:Crazyflie_Flow_v2")
-		(at 45.72 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d15ef7c-5f1e-47fa-a0b9-0ee5806d791c")
-		(property "Reference" "U11"
-			(at 36.83 175.8949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Crazyflie Flow v2"
-			(at 36.83 178.4349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "e9342d72-ff18-40b9-9f17-2812f8da753e")
-		)
-		(pin ""
-			(uuid "257eb47a-f684-47f7-9331-eeeff276a4ad")
-		)
-		(pin ""
-			(uuid "0b7719b7-9d67-44a9-be21-a8527d38d0a0")
-		)
-		(pin ""
-			(uuid "52b72ce7-a3c9-4a4b-8125-1c2da98eff03")
-		)
-		(pin ""
-			(uuid "c2e7efaf-2c81-49d8-8421-2e325bdd6a2a")
-		)
-		(pin ""
-			(uuid "42f4bbcc-d6ad-4905-9457-7f7869b4d658")
-		)
-		(pin ""
-			(uuid "cc9ecbcb-96dd-4bf9-8680-b33dde6d6b93")
-		)
-		(pin ""
-			(uuid "b47d4125-ed1a-4f30-9b4f-1792504605ca")
-		)
-		(instances
-			(project ""
-				(path "/e82fdf23-e984-4547-bc35-f76b36d3e186"
-					(reference "U11")
 					(unit 1)
 				)
 			)
