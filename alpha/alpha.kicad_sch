@@ -3103,111 +3103,6 @@
 				)
 			)
 		)
-		(symbol "RF_Modules:RFD868x-EU_868Mhz_Long_Range"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 3.556 -0.762 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RFD868x"
-				(at 7.112 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RFD868x-EU_868Mhz_Long_Range_0_1"
-				(rectangle
-					(start -2.54 0)
-					(end 2.54 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.35) (xy 0 1.27) (xy -1.27 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RFD868x-EU_868Mhz_Long_Range_1_1"
-				(pin bidirectional line
-					(at 0 -8.89 90)
-					(length 2.54)
-					(name "CONN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "RF_Modules:Radiomaster_Bandit_BR3_ELRS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4028,12 +3923,6 @@
 		(uuid "62cff427-ae85-4a6f-9fd3-7b104b0adab8")
 	)
 	(junction
-		(at 132.08 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c1b8a4a-c91d-49dc-8402-5a98ac67cc4c")
-	)
-	(junction
 		(at 140.97 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4058,10 +3947,10 @@
 		(uuid "9e459994-c017-434e-9b7d-24810cab6e7d")
 	)
 	(junction
-		(at 139.7 140.97)
+		(at 134.62 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c257b79d-ae4e-4bd2-b801-1f3ab1b9ea8a")
+		(uuid "c3449bc4-60a6-44eb-a04a-71b775d5be00")
 	)
 	(junction
 		(at 175.26 76.2)
@@ -4082,10 +3971,6 @@
 	(no_connect
 		(at 67.31 110.49)
 		(uuid "5fbdab56-3d87-4a42-9245-93a25e23348d")
-	)
-	(no_connect
-		(at 123.19 121.92)
-		(uuid "726a2b31-4993-4f66-8430-96022bbafae7")
 	)
 	(no_connect
 		(at 232.41 104.14)
@@ -4183,6 +4068,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 138.43) (xy 134.62 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c093ef-83c1-44e7-a133-9c57146cd2ee")
+	)
+	(wire
+		(pts
 			(xy 185.42 93.98) (xy 162.56 93.98)
 		)
 		(stroke
@@ -4253,7 +4148,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 138.43) (xy 139.7 138.43)
+			(xy 134.62 147.32) (xy 132.08 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22928124-ea63-43c4-84f1-02a192691732")
+	)
+	(wire
+		(pts
+			(xy 148.59 138.43) (xy 134.62 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4363,16 +4268,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 119.38) (xy 132.08 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40fb5141-602c-427f-9f18-43bb157aae90")
-	)
-	(wire
-		(pts
 			(xy 251.46 81.28) (xy 265.43 81.28)
 		)
 		(stroke
@@ -4380,16 +4275,6 @@
 			(type default)
 		)
 		(uuid "41156c7c-9eda-457e-89ad-f20ff0af90df")
-	)
-	(wire
-		(pts
-			(xy 139.7 140.97) (xy 151.13 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43f7e31b-c371-408a-949e-7aba8c69adc3")
 	)
 	(wire
 		(pts
@@ -4443,16 +4328,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 140.97) (xy 139.7 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ec735d2-190c-4e4a-a196-5c30af02a89b")
-	)
-	(wire
-		(pts
 			(xy 179.07 73.66) (xy 205.74 73.66)
 		)
 		(stroke
@@ -4460,16 +4335,6 @@
 			(type default)
 		)
 		(uuid "56abbfd0-1fda-44fc-a7ca-2445d9b2de52")
-	)
-	(wire
-		(pts
-			(xy 134.62 147.32) (xy 132.08 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57ceac4c-5462-4395-a068-15fb81e6ddf9")
 	)
 	(wire
 		(pts
@@ -4713,16 +4578,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 121.92) (xy 132.08 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8411a67f-54e9-44e5-a3d5-fd154fec7dc0")
-	)
-	(wire
-		(pts
 			(xy 140.97 170.18) (xy 140.97 172.72)
 		)
 		(stroke
@@ -4730,16 +4585,6 @@
 			(type default)
 		)
 		(uuid "84c62bff-9c70-4c81-91a0-425518dbeccc")
-	)
-	(wire
-		(pts
-			(xy 139.7 138.43) (xy 139.7 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85d5e658-2cc3-4edd-8bbd-3ea5692955a4")
 	)
 	(wire
 		(pts
@@ -4783,6 +4628,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 140.97) (xy 148.59 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2c0b40-ee09-49d8-ac7a-1b9f9d2c8bda")
+	)
+	(wire
+		(pts
 			(xy 165.1 73.66) (xy 156.21 73.66)
 		)
 		(stroke
@@ -4823,16 +4678,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 121.92) (xy 142.24 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f358d65-28e7-44bf-9bf6-57b380edc6ff")
-	)
-	(wire
-		(pts
 			(xy 200.66 96.52) (xy 205.74 96.52)
 		)
 		(stroke
@@ -4840,16 +4685,6 @@
 			(type default)
 		)
 		(uuid "a53a5b27-2e90-47f0-87cc-83e715d60960")
-	)
-	(wire
-		(pts
-			(xy 132.08 121.92) (xy 142.24 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b04539c7-8b88-4dc9-a611-1dfb92b5fc7a")
 	)
 	(wire
 		(pts
@@ -5020,16 +4855,6 @@
 			(type default)
 		)
 		(uuid "d50b02ff-8857-48f7-9ac4-2f3c2c5e3295")
-	)
-	(wire
-		(pts
-			(xy 123.19 121.92) (xy 132.08 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6691459-5568-464e-a116-fbbbd5059774")
 	)
 	(wire
 		(pts
@@ -5242,7 +5067,7 @@
 	)
 	(text "Pin2"
 		(exclude_from_sim no)
-		(at 145.288 140.208 0)
+		(at 143.002 140.208 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5302,7 +5127,7 @@
 	)
 	(text "Pin3"
 		(exclude_from_sim no)
-		(at 145.288 137.668 0)
+		(at 143.002 137.668 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5529,36 +5354,6 @@
 			)
 		)
 		(uuid "d6c5b68d-43d9-4ca3-9c4f-eb6890d7bbc3")
-	)
-	(text "Telemetry radio"
-		(exclude_from_sim no)
-		(at 132.842 102.108 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d8441b49-835b-4505-937d-18f3504bfe0d")
-	)
-	(text "Use RFD adapter cable. See\nhttps://mozzie.readthedocs.io/en/latest/RFD900xSetup.html"
-		(exclude_from_sim no)
-		(at 146.558 125.476 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f192c75e-088e-44aa-88c0-f309244b1776")
-	)
-	(text "Leave RC/SBUS/PPM\ndisconnected"
-		(exclude_from_sim no)
-		(at 120.142 119.634 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f40d4d7a-65b9-4389-bbe3-d4420983e3e9")
 	)
 	(text "Pin4"
 		(exclude_from_sim no)
@@ -5858,7 +5653,7 @@
 	)
 	(global_label "ELRS_TX"
 		(shape output)
-		(at 151.13 138.43 0)
+		(at 148.59 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5868,7 +5663,7 @@
 		)
 		(uuid "8c3020b7-00ce-451b-a151-1fad80d0c047")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.9165 138.43 0)
+			(at 159.3765 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +5851,7 @@
 	)
 	(global_label "ELRS_RX"
 		(shape input)
-		(at 151.13 140.97 0)
+		(at 148.59 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6066,7 +5861,7 @@
 		)
 		(uuid "d25305f5-fea8-4663-9791-f4fc9df92add")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.2189 140.97 0)
+			(at 159.6789 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,7 +6217,6 @@
 		)
 	)
 	(symbol
-		(lib_name "DC_DC_Converters:DC/DC_Converter")
 		(lib_id "DC_DC_Converters:DC/DC_Converter")
 		(at 265.43 34.29 0)
 		(unit 1)
@@ -6750,71 +6544,6 @@
 			(project "alpha"
 				(path "/e82fdf23-e984-4547-bc35-f76b36d3e186"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 142.24 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f478105-ca38-4962-a35f-92288790d47b")
-		(property "Reference" "#PWR09"
-			(at 142.24 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V"
-			(at 141.732 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 142.24 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0dd9367-5bda-4982-ba30-597822619e6a")
-		)
-		(instances
-			(project "alpha"
-				(path "/e82fdf23-e984-4547-bc35-f76b36d3e186"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8020,7 +7749,6 @@
 		)
 	)
 	(symbol
-		(lib_name "DC_DC_Converters:DC/DC_Converter")
 		(lib_id "DC_DC_Converters:DC/DC_Converter")
 		(at 222.25 41.91 0)
 		(unit 1)
@@ -8952,7 +8680,6 @@
 		)
 	)
 	(symbol
-		(lib_name "DC_DC_Converters:DC/DC_Converter")
 		(lib_id "DC_DC_Converters:DC/DC_Converter")
 		(at 200.66 35.56 0)
 		(unit 1)
@@ -9019,73 +8746,6 @@
 			(project ""
 				(path "/e82fdf23-e984-4547-bc35-f76b36d3e186"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RF_Modules:RFD868x-EU_868Mhz_Long_Range")
-		(at 132.08 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c77073ed-6406-44ec-93cb-6ec8eb81347c")
-		(property "Reference" "U5"
-			(at 135.89 109.1564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RFD868x"
-			(at 135.89 111.6964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "cc0a4911-badc-4a73-93ae-e05fe8666a0c")
-		)
-		(instances
-			(project ""
-				(path "/e82fdf23-e984-4547-bc35-f76b36d3e186"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -9839,7 +9499,6 @@
 		)
 	)
 	(symbol
-		(lib_name "DC_DC_Converters:DC/DC_Converter")
 		(lib_id "DC_DC_Converters:DC/DC_Converter")
 		(at 241.3 45.72 0)
 		(unit 1)
